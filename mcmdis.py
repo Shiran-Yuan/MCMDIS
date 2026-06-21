@@ -128,4 +128,4 @@ for N in [150, 300, 600, 1200, 2500, 5000, 10000]:
                             scores.append(avg[i, j])
                     auroc = roc_auc_score(labels, scores)
                     aurocs.append(auroc)
-                print(fey, seed, N, noise, act, sum(aurocs)/100)
+                print(fey, N, noise, act, sum(aurocs)/100)
