@@ -1,0 +1,5 @@
+torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+numpy<2
+pandas
+tqdm
+scikit-learn
